@@ -1,0 +1,9 @@
+{
+  "name": "claude-notifier",
+  "description": "Sends macOS system notifications for Claude Code task completion and events",
+  "version": "0.1.0",
+  "author": {
+    "name": "youthfulhps"
+  },
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-notifier",
+  "description": "macOS system notifications for Claude Code task completion and events",
+  "owner": {
+    "name": "youthfulhps"
+  },
+  "plugins": [
+    {
+      "name": "claude-notifier",
+      "description": "Sends macOS system notifications when Claude finishes a response or requests input. Optionally focuses the terminal on click.",
+      "version": "0.1.0",
+      "author": {
+        "name": "youthfulhps"
+      },
+      "source": "./plugins/claude-notifier",
+      "category": "productivity",
+      "homepage": "https://github.com/youthfulhps/claude-notifier"
+    }
+  ]
+}
